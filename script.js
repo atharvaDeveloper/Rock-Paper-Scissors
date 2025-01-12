@@ -134,8 +134,8 @@ function playGame(playerMove) {
 
   document.querySelector('.js-moves')
     .innerHTML = `You 
-          <img src = "Images/${playerMove}-emoji.png" class = "move-icon"> 
-          <img src = "Images/${computerMove}-emoji.png" class = "move-icon"> 
+          <img src = "images/${playerMove}-emoji.png" class = "move-icon"> 
+          <img src = "images/${computerMove}-emoji.png" class = "move-icon"> 
           Computer`;
 
   localStorage.setItem('score', JSON.stringify(score));
